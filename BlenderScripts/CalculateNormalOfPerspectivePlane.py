@@ -8,6 +8,8 @@ class CalculateNormalOfPerspectivePlane(bpy.types.Operator):
     bl_label = "Minimal Operator"
     
     def execute(self, context):
+        # Get the selected points
+        SelectedPoints = GetGreasePencilStrokePoints()
         return {'FINISHED'}
     
 
@@ -18,3 +20,33 @@ def menu_func(self, context):
 # Update the register function to show up in a menu
 bpy.utils.register_class(CalculateNormalOfPerspectivePlane)
 bpy.types.VIEW3D_MT_view.append(menu_func)
+
+
+# Gets the currently selected grease pencil stroke points if any
+def GetGreasePencilStrokePoints():
+    # Get active object
+    ActiveObject =  bpy.context.active_object.data
+    
+    # Get active layer
+    ActiveLayer = ActiveObject.layers.active
+    
+    # Get active frame
+    ActiveFrame = ActiveLayer.active_frame
+    
+    # Get selected strokes
+    SelectedStrokes = [ ]
+    for Stroke in ActiveFrame.strokes:
+        if Stroke.select:
+            SelectedStrokes.append(Stroke)
+        
+    
+    # Get selected points
+    SelectedPoints = [ ]
+    for Stroke in SelectedStrokes:
+        for Point in Stroke.points:
+            if Point.select:
+                SelectedPoints.append(Point)
+            
+        
+    
+    return SelectedPoints
