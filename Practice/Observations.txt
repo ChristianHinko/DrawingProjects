@@ -1,0 +1,2 @@
+Perspective:
+	- Lines that pass through the center of the camera are not distorted in viewspace
