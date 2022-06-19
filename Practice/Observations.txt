@@ -1,2 +1,3 @@
 Perspective:
 	- Lines that pass through the center of the camera are not distorted in viewspace
+	- Shearing a plane in viewspace give the same effect as translating it in the scene space
