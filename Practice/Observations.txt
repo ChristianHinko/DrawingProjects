@@ -1,3 +1,11 @@
 Perspective:
 	- Lines that pass through the center of the camera are not distorted in viewspace
 	- Shearing a plane in viewspace give the same effect as translating it in the scene space
+	- The first shape that you draw determines your entire scene's FOV / focal length
+	- Screen size of an object is how much it will be distored by perspective
+		- Enlarging an object has it occupy more screen space, resulting in more perspective distortion
+		- Bringing an object closer to the camera has it occupy more screen space, resulting in more perspective distoring
+		- However, it is solely screen size that determines the amount of perspective distortion
+	- Rotating objects around the center of the camera (the vanishing point) does not affect the perspective distortion of that object
+		- Crazily rotated objects can be simplified by orienting them upright (via rotating around the camera)
+	- High FOV exposes your mistakes more so than low FOV
