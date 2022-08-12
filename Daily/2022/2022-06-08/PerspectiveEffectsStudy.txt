@@ -1,7 +1,0 @@
-Orthographic:
-- Rotation
-
-Perspective:
-- Rotation
-- Location
-- Focal Length
