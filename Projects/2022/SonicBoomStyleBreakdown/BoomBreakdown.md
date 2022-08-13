@@ -5,10 +5,21 @@
 - Bright
 - Extreme proportions
 
-### Animal
+### Mamal
 - Clumpy hair
 - Skinny limbs
-- No neck
+- Hidden neck
+
+#### Human
+- Standard human face
+
+##### Eggman
+- Large torso
+- Triangle torso
+- Beefy arms
+- Thin legs
+- Short head
+- Long mustache
 
 #### Hedgehog
 - Spikey hair
@@ -18,7 +29,6 @@
 - Top ears (cat-like)
 - Mouth shape
 - Big head
-- 
 
 ##### Sonic
 - Hair falls down
@@ -32,12 +42,13 @@
 - Chicken comb hair thing
 - Hair goes down sides
 - Short stubby nose
+- No back spikes
 
 #### Echidna
 - Mouth shape
-- Stubby nose
+- Short stubby nose
 - Ears to the side
-- Short spikey tail
+- Sharp jagged tail
 - Short flat head
 
 ##### Knuckles
@@ -47,15 +58,14 @@
 - Locks
 - Spikey hands
 - Big hands
-- Short stubby nose
 
 #### Fox
-- Whiskers mouth shape
+- Mouth shape with whiskers
 - Long tail
 - Top ears (cat-like)
 - Cubey head shape
+- Short stubby nose
 
 ##### Tails
 - Chicken comb hair thing
 - Two tails
-- Short stubby nose
